@@ -1,0 +1,25 @@
+#appDiv {
+
+  width: 20vw;
+  height: 100vh;
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body {
+  background-image: url('./img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#loadingDiv {
+  position: relative;
+  top: -350px;
+  font-size: 30pt;
+  color: white;
+  text-shadow: 2px 2px blue;
+}
